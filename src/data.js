@@ -5,7 +5,7 @@ function musicData() {
         {
             name: 'Humility Piece',
             artist: 'Psalm Trees',
-            cover: 'https://chillhop.com/wp-content/uploads/2022/05/ce636ede9d5fc9fc2417ce40af98060fbcbdadca-1024x1024.jpg',
+            cover: 'https://f4.bcbits.com/img/a2061526554_10.jpg',
             id: uuidv4(),
             active: true,
             color: ['#CD0100', '#064179'],
