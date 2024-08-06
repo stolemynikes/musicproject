@@ -14,7 +14,7 @@ function musicData() {
         {
             name: "Daylight",
             cover:
-              "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+              "hhttps://i.scdn.co/image/ab67616d0000b273797b1f1ca8576715f8708f65",
             artist: "Aiguille",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
             color: ["#EF8EA9", "#ab417f"],
@@ -24,7 +24,7 @@ function musicData() {
           {
             name: "Keep Going",
             cover:
-              "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+              "https://i1.sndcdn.com/artworks-yLb43YcD3dvijU49-tp7T1w-t500x500.jpg",
             artist: "Swørn",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
             color: ["#CD607D", "#c94043"],
@@ -34,7 +34,7 @@ function musicData() {
           {
             name: "Nightfall",
             cover:
-              "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+              "hhttps://f4.bcbits.com/img/a1532836563_10.jpg",
             artist: "Aiguille",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
             color: ["#EF8EA9", "#ab417f"],
@@ -44,7 +44,7 @@ function musicData() {
           {
             name: "Reflection",
             cover:
-              "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+              "https://f4.bcbits.com/img/a1176758100_65",
             artist: "Swørn",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
             color: ["#CD607D", "#c94043"],
@@ -54,7 +54,7 @@ function musicData() {
           {
             name: "Under the City Stars",
             cover:
-              "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+              "https://f4.bcbits.com/img/a2013294891_65",
             artist: "Aso, Middle School, Aviino",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
             color: ["#205950", "#2ab3bf"],
@@ -64,7 +64,7 @@ function musicData() {
           {
             name: "Highs and Lows",
             cover:
-              "https://chillhop.com/wp-content/uploads/2022/05/9bb8c31852704fe0177b21ee1f674b71027b268f-1024x1024.jpg",
+              "https://i1.sndcdn.com/artworks-lahwUlmoUjkEnY8G-9gvvUg-t500x500.jpg",
             artist: "Kissamilé",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=36944",
             color: ["#06437A", "#597C44"],
@@ -74,7 +74,7 @@ function musicData() {
           {
             name: "Sundials",
             cover:
-              "https://chillhop.com/wp-content/uploads/2022/07/4f05da370f675eb78a6b92880f93c4e7787935e3-1024x1024.jpg",
+              "https://f4.bcbits.com/img/a0941640287_65",
             artist: "chief., Shrimpnose",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=36944",
             color: ["#D7AAC3", "#3B434A"],
@@ -84,7 +84,7 @@ function musicData() {
           {
             name: "Low Tide",
             cover:
-              "https://chillhop.com/wp-content/uploads/2022/05/18d934ab6d70d065944aabf9a05bef2a06ce770d-1024x1024.jpg",
+              "https://f4.bcbits.com/img/a0631908113_10.jpg",
             artist: "chromonicci, Yasper",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=36944",
             color: ["#D19500", "#DACEB6"],
