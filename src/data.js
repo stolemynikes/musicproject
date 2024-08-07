@@ -14,7 +14,7 @@ function musicData() {
         {
             name: "Daylight",
             cover:
-              "hhttps://i.scdn.co/image/ab67616d0000b273797b1f1ca8576715f8708f65",
+              "https://i.scdn.co/image/ab67616d0000b273797b1f1ca8576715f8708f65",
             artist: "Aiguille",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
             color: ["#EF8EA9", "#ab417f"],

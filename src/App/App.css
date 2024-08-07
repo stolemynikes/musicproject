@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+  color: rgb(54, 54, 54);
+}
+
+h3, h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+.App {
+  transition: all 0.3s ease-in;
+}
+
+.library-active {
+  margin-left: 15%;
+}
+
+.player-container {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.player-container .time-control {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.player-container .time-control input {
+  width: 100%;
+  padding: 0;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+.player-container .time-control p {
+  padding: 1rem;
+}
+.player-container .play-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 30%;
+}
+.player-container .play-control svg {
+  cursor: pointer;
+}
+
+input[type=range]:focus {
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+}
+
+input[type=range]::-moz-slider-thumb {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+}
+
+.track {
+  background: lightblue;
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.animate-track {
+  background: whitesmoke;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0%);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .player-container .time-control {
+    width: 90%;
+  }
+  .player-container .play-control {
+    width: 50%;
+  }
+}
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.song-container img {
+  width: 20%;
+  border-radius: 2%;
+  box-shadow: 29px 29px 70px #bebebe, -29px -29px 70px #ffffff;
+}
+.song-container h2 {
+  padding: 3rem 1rem 1rem 1rem;
+}
+.song-container h3 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .song-container img {
+    width: 60%;
+  }
+}
+.library-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  background: white;
+  box-shadow: 2px 2px 50px rgb(206, 206, 206);
+  overflow: scroll;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.library-container h2 {
+  padding: 2rem;
+}
+
+.active-library-container {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.library-song-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0rem 0rem 1rem 0rem;
+}
+.library-song-container img {
+  border-radius: 5%;
+  width: 30%;
+  box-shadow: 29px 29px 70px #bebebe, -29px -29px 20px #ffffff;
+}
+.library-song-container:hover {
+  background: rgb(245, 245, 245);
+  border-radius: 20px;
+  transition: background 0.3s ease-in;
+}
+
+.song-description {
+  padding-left: 1rem;
+}
+.song-description h3 {
+  font-size: 1rem;
+}
+.song-description h4 {
+  font-size: 0.75rem;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.selected {
+  background: rgb(245, 245, 245);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .library-container {
+    width: 100%;
+  }
+}
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav button {
+  background: transparent;
+  border: none;
+  border: 1px solid rgb(65, 65, 65);
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+nav button:hover {
+  background: rgb(65, 65, 65);
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  nav button {
+    z-index: 10;
+  }
+}/*# sourceMappingURL=App.css.map */
