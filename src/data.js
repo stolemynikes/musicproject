@@ -34,7 +34,7 @@ function musicData() {
           {
             name: "Nightfall",
             cover:
-              "hhttps://f4.bcbits.com/img/a1532836563_10.jpg",
+              "https://f4.bcbits.com/img/a1532836563_10.jpg",
             artist: "Aiguille",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
             color: ["#EF8EA9", "#ab417f"],
