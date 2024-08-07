@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/musicproject/static/css/main.3db10239.css",
+    "main.js": "/musicproject/static/js/main.e9806f98.js",
+    "static/js/787.7e0de4d5.chunk.js": "/musicproject/static/js/787.7e0de4d5.chunk.js",
+    "index.html": "/musicproject/index.html",
+    "main.3db10239.css.map": "/musicproject/static/css/main.3db10239.css.map",
+    "main.e9806f98.js.map": "/musicproject/static/js/main.e9806f98.js.map",
+    "787.7e0de4d5.chunk.js.map": "/musicproject/static/js/787.7e0de4d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db10239.css",
+    "static/js/main.e9806f98.js"
+  ]
+}
